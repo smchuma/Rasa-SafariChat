@@ -1,0 +1,9 @@
+models*
+__pycache__
+*.log
+failed_stories.md
+story_confmat.md
+test_env
+safarichat\data*
+rasa.*
+venv

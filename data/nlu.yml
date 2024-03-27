@@ -1,0 +1,122 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there, how are you doing today
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - habari
+      - jambo
+      - mambo
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - hello who are you?
+
+  - intent: get_info
+    examples: |
+      - what can i do in Tanzania?
+      - what to do in Tanzania?
+      - tell me about Tanzania?
+      - what does Tanzania offer?
+
+  - intent: recommend_places
+    examples: |
+      - best places to visit in tanzania
+      - what are the must see places in tanzania
+      - What are the best places to visit in Tanzania?
+      - Can you recommend top tourist destinations in Tanzania?
+      - I want to explore the most beautiful spots in Tanzania.
+      - Tell me about popular attractions in Tanzania.
+
+  - intent: thank_you
+    examples: |
+      - Thank you!
+      - Thanks!
+      - Appreciate it!
+      - Thank you for your help with planning my trip to Tanzania.
+      - Thanks for all the information about safaris in the Serengeti.
+      - Thanks a lot! I'll definitely use SafariBot again when I'm finalizing my travel plans
+      - Sweet! Thanks, SafariChat!
+      - You're a lifesaver, thanks!

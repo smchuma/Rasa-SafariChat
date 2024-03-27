@@ -1,0 +1,53 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - get_info
+  - recommend_places
+
+responses:
+  utter_greet:
+    - text: "Jambo! (Hello in Swahili) Welcome to SafariChat, your one-stop shop for planning your dream Tanzanian adventure!"
+    - text: "Hello! I'm SafariChat, your guide to Tanzania. How can I help you today?"
+    - text: "Hello! how can i help you"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I'm SafariChat, your friendly virtual assistant for planning your dream trip to Tanzania! 🇹🇿 I can help you discover amazing places, suggest exciting activities, and answer all your questions about this beautiful country."
+
+  utter_info:
+    - text: "Tanzania is a beautiful country with stunning wildlife, breathtaking landscapes, and rich culture. From the Serengeti's vast plains to the idyllic beaches of Zanzibar, Tanzania offers something for everyone."
+    - text: "Tanzania is a beautiful country in East Africa known for its wildlife and stunning landscapes."
+
+  utter_recommend_places:
+    - text: "There are so many amazing places to visit in Tanzania! Some of the must-sees include the Serengeti National Park, Ngorongoro Crater, Zanzibar Island, and Mount Kilimanjaro - Africa's highest peak."
+
+  utter_thank_you:
+    - text: "You're welcome! Happy to help"
+    - text: "You're welcome! I'm thrilled to help you plan your Tanzanian dream vacation. Let me know if you need anything else!"
+    - text: "Hakuna Matata! (No worries) Feel free to ask me anything else about Tanzania. I'm here to help make your trip unforgettable."
+    - text: "You're most welcome, I hope you have a fantastic time exploring Tanzania."
+    - text: "You're welcome! Happy travels!"
+    - text: "No problem! Now go forth and conquer Tanzania (but send postcards, okay?)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
